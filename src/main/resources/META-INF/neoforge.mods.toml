@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Apache License version 2.0"
+
+[[mods]]
+modId="artustdup"
+version="1.0.1"
+displayName="Artust Duplicator"
+displayURL="https://ArtOfScripting.com"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="ArtOfScripting"
+description="An Item Duplicator"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.artustdup]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.12,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.artustdup]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

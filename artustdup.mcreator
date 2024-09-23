@@ -1,0 +1,95 @@
+{
+  "mod_elements": [
+    {
+      "name": "DuplicatorGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duplicator_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/artustdup/client/gui/DuplicatorGUIScreen.java",
+          "src/main/java/net/mcreator/artustdup/world/inventory/DuplicatorGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "DuplicatorOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duplicator_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/artustdup/procedures/DuplicatorOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DupRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dup_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/artustdup/recipe/dup_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "ItemDuplicator",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_duplicator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/artustdup/item/inventory/ItemDuplicatorInventoryCapability.java",
+          "src/main/java/net/mcreator/artustdup/item/ItemDuplicatorItem.java",
+          "src/main/resources/assets/artustdup/models/item/item_duplicator.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.artustdup.item_duplicator": "Item Duplicator",
+      "gui.artustdup.duplicator_gui.label_emerald": "Emerald",
+      "gui.artustdup.duplicator_gui.label_item": "Item",
+      "gui.artustdup.duplicator_gui.label_item_duplicator": "Item Duplicator"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "artustdup",
+    "modName": "Artust Duplicator",
+    "version": "1.0.1",
+    "description": "An Item Duplicator",
+    "author": "ArtOfScripting",
+    "websiteURL": "https://ArtOfScripting.com",
+    "license": "Apache License version 2.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.artustdup"
+  },
+  "mcreatorVersion": 202400337517
+}
